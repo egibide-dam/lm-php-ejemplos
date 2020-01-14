@@ -17,7 +17,7 @@
 
 <?php
 // Abrir la conexión
-$conexion = mysqli_connect("bd", "blog", "12345Abcde", "blog");
+$conexion = mysqli_connect("mariadb", "blog", "12345Abcde", "blog");
 
 // Formar la consulta (seleccionando todas las filas)
 $query = "select * from entrada";

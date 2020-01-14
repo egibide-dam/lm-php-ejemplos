@@ -67,7 +67,7 @@ $fecha_actual = date("Y-m-d H:i:s");
 
     <?php
     // Abrir la conexión
-    $conexion = mysqli_connect("bd", "blog", "12345Abcde", "blog");
+    $conexion = mysqli_connect("mariadb", "blog", "12345Abcde", "blog");
 
     // Formar la consulta (insertar una fila)
     $query = "insert into entrada values ( 0,'$titulo','$texto','$fecha',$activo )";
